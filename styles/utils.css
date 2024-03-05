@@ -1,7 +1,7 @@
 /* this file is where we put our classes and athings with ids*/
 
 .btn{
-    display: block;
+    display: inline block;
     font-weight: 600;
     text-decoration: none;
     letter-spacing: -0.05em;
@@ -18,8 +18,41 @@
 
 .btn:hover{
     transform: translate(-3px);
-    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.5)/*last value represetnt the opacity*/, 
+    box-shadow: 0 14px 28px rgba(0, 29, 72, 0.5)/*last value represetnt the opacity*/, 
     0 10ps 10px
-    rgba(225, 29, 72, 0.5),
+    rgba(0, 29, 72, 0.5);
+    background-color: var(--clr-indigo)
+    
     0 0 120px -10px var(--clr-rose) ;
 }
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid red;
+}
+/* 
+/*xs*/
+@media (min-width: 475px){ /*min witdth is what we use to change the screen sixe dynamically*/
+    .container{
+        max-width: 475px;
+    }
+}
+
+/*sm*/
+/* @media (min-width: 640px){} */
+
+/*md*/
+/* @media (min-width: 768px){} */
+
+/*lg*/
+/* @media (min-width: 1024x){} */
+
+/*xl*/
+/* @media (min-width: 1280x){} */
+
+/*2xl*/
+/* @media (min-width: 1536){}  */
+
