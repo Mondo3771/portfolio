@@ -18,9 +18,9 @@
 
 .btn:hover{
     transform: translate(-3px);
-    box-shadow: 0 14px 28px rgba(0, 29, 72, 0.5)/*last value represetnt the opacity*/, 
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.5)/*last value represetnt the opacity*/, 
     0 10ps 10px
-    rgba(0, 29, 72, 0.5);
+    rgba(255, 29, 72, 0.5);
     background-color: var(--clr-indigo)
     
     0 0 120px -10px var(--clr-rose) ;
